@@ -1,0 +1,96 @@
+*
+{
+   margin: 0;
+   padding: 0;
+   
+}
+body
+{
+   list-style: none;
+   direction: rtl;
+   position: relative;
+   font-family: "b yekan"
+   
+}
+a
+{
+   text-decoration: none;
+   transition:all ease-out .3s ;
+      color: #fdfdfd;
+
+}
+#nav
+{
+      position: relative;
+   width: 100%;
+   color: #fdfdfd;
+   background: #2c3e50;
+   
+}
+#nav ul li a
+{
+   display: block;
+ color: #fdfdfd;
+font: 13px 'b yekan',tahoma;
+}
+#nav ul li:hover a
+{
+   background: #27ae60;
+}
+
+@media screen and (min-width:721px)
+{
+   #nav ul li
+   {
+      position: relative;
+      display: inline-block;
+      
+   }
+    #nav ul li a
+   {
+    padding: 20px;
+      border-radius: 4px;   
+   }
+   
+}
+@media screen and (max-width:720px)
+{
+#nav ul li
+   {
+      position: relative;
+      border-top: 2px solid rgba(255,255,255,0.3);
+   }
+#nav ul li a
+   {
+      padding: 10px;
+   }
+   
+   
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
